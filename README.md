@@ -94,6 +94,10 @@ ON  | ON  | - | 3: ROM_3
 # 16K ROM - what? why?
 Only one known 16K rom exists, it's the SPonZY [SPeccy ON Zeddy](https://www.sinclairzxworld.com/viewtopic.php?t=465) ROM which turns your ZX81 into a ZX Spectrum (without color and sound of course). Just put the ROM file on the EPROM, set DIP 4 to ON/UP and power up your ZX81.
 
+## Lambda 8300 - the cute ZX81 clone, sold under many names
+Using the 16K to add some extra code to initialize the ZX81, do a few changes to the existing Lambda 8300 ROM - it is possible to have your ZX81 run as a Lambda 8300. This works for both v1 and v2 (powers up with READY) of the Lambda rom.
+[VIDEO](https://youtube.com/shorts/TUz76jcoAOo?si=cOly-wp9AboL9ZEm) of a standard ZX81 running as Lambda - even loads from tape!
+
 ## SPECIAL ROMs
 A few ROMs from different interfaces does not sit in the 0-8K memory space, using the 16K configuration of this interface - it is possible to get them running on your ZX81. The following sections provides instruction on how to run the ones I know of.
 
